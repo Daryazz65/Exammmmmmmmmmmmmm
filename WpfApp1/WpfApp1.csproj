@@ -64,6 +64,18 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="задание 1\Loginn.xaml.cs">
+      <DependentUpon>Loginn.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="задание 2\Oknoo.xaml.cs">
+      <DependentUpon>Oknoo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="задание 2\Stranica_List.xaml.cs">
+      <DependentUpon>Stranica_List.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="задание 2\Stranica_Add_Item.xaml.cs">
+      <DependentUpon>Stranica_Add_Item.xaml</DependentUpon>
+    </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -76,6 +88,22 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="задание 1\Loginn.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="задание 2\Oknoo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="задание 2\Stranica_List.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="задание 2\Stranica_Add_Item.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="model\Client.cs">
@@ -135,7 +163,13 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="задание 3\" />
+    <Folder Include="задание 4\" />
+    <Folder Include="задание 5\" />
+    <Folder Include="задание 6\" />
+    <Folder Include="задание 7\" />
+  </ItemGroup>
   <ItemGroup>
     <Content Include="model\Model1.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
